@@ -1,1 +1,4 @@
 # GeoAI_and_DL_Seminar_Uni_HD_4
+# ---
+# Google Doc
+# https://docs.google.com/document/d/1rwxETUBSJR45rE4G4-ERb-VCAmlVL5FeIzWFk-3Yh3U/edit?usp=sharing
