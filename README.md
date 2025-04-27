@@ -5,5 +5,5 @@ This project detects buildings on Sentinel 2 Satelite images and was trained usi
 ### Overleaf 
  [https://www.overleaf.com/6567118731jkrgfyjkprfj#cb308f](https://www.overleaf.com/2887651616xwmcxyxshpwk#ae2f4a)
 ## Data Aquisition
-To obtain the sentinel-2 data, [this](GeoAI_and_DL_Seminar_Uni_HD_4/data_aquisition/tile_download_script.py) Google Earth Engine script was created. In order to use it, one has to register to Google Cloud, create a project and use the tile_download_script on https://code.earthengine.google.com. 
-The data is made up of .tif files if the specified region.
+To obtain the sentinel-2 data, [this](data_aquisition/tile_download_script.py) Google Earth Engine script was created. In order to use it, one has to register to Google Cloud, create a project and use tile_download_script.py on https://code.earthengine.google.com. 
+The data is made up of .tif files of the specified region.
