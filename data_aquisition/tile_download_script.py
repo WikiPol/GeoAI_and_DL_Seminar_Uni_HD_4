@@ -32,12 +32,6 @@ collection = (
 # Creating image out of the median of the collection
 image = collection.median().clip(region)
 
-# Setting RGB visualization 
-Map = geemap.Map()
-Map.centerObject(region, 10)
-Map.addLayer(image, {"min": 0, "max": 3000, "bands": ["B4", "B3", "B2"]}, "Sentinel-2 RGB")
-Map
-
 # Bounding box extraction out of the coordinates
 coords = region.bounds().coordinates().getInfo()[0]
 xmin, ymin = coords[0]
