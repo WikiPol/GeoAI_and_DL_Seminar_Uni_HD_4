@@ -9,3 +9,4 @@ To obtain the sentinel-2 data, [this](data/tile_download_script.py) Google Earth
 The data is made up of .tif files of the specified region.
 ## Data Preperation
 Now the .tif files need to be split into smaller tiles in order to reduce the amount of labels on one tile and increase readability. The next step converts the .tif files into .jpg. The third does the automatic labeling. The last steps upload the labeled data to Roboflow. The Data Preparation can be done on this [Google Colab](data/TileConvertingAndLabeling.ipynb) and requieres a connected Google account.
+## Model Training
