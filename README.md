@@ -1,6 +1,6 @@
 # Building detection using Satellite imagery in South India
 This project detects buildings on Sentinel 2 satelite images and was trained using YOLOv8 and Roboflow. The models were evluated on satellite data covering parts of Tamil Nadu.
-The models correspond to the labeling methods: The first used manual labeling, the second and third ones automated labeling.
+The models correspond to the labeling methods: The first uses manual labeling, the second and third ones automated labeling.
 ### Google
  https://docs.google.com/document/d/1rwxETUBSJR45rE4G4-ERb-VCAmlVL5FeIzWFk-3Yh3U/edit?usp=sharing
 ### Overleaf 
