@@ -1,7 +1,7 @@
 # Building detection using Satellite imagery in South India
 This project detects buildings on Sentinel 2 satelite images and was trained using YOLOv8 and Roboflow. The models were evluated on satellite data covering parts of Tamil Nadu.
 The models correspond to the labeling methods:  first model is based on manual labels and the second model uses external lables. We tested different dataset of external labels to study which performs better.
-### [Overleaf](https://www.overleaf.com/2887651616xwmcxyxshpwk#ae2f4a)
+
 ## Data Aquisition
 To obtain the sentinel-2 data, [this](data/tile_download_script.py) Google Earth Engine script was created. In order to use it, one has to register to Google Cloud, create a project and use tile_download_script.py on the [Google Earth Engine Editor](https://code.earthengine.google.com. )
 The data is made up of .tif files of the specified region.
