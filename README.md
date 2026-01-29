@@ -15,10 +15,6 @@ Once the data has been prepared, the training can begin. We used the [YOLOv8 Obj
 ### Manual label model
 The base model with manual labels contains 646 images. We trained the data using different benchmarks. First, with 25 epochs and learning rate of 0.01. As shown in Figure 1a model can detect the groups of buildings, although with less confidence. To improve the accuracy of the bounding boxes, we increased epochs to 30 and decreased the learning rate to 0.001. This led to a slight improvement in our results (Figure 1b).
 
-## Results
-### Manual label model
-The base model with manual labels contains 646 images. We trained the data using different benchmarks. First, with 25 epochs and learning rate of 0.01. As shown in Figure 1a model can detect the groups of buildings, although with less confidence. To improve the accuracy of the bounding boxes, we increased epochs to 30 and decreased the learning rate to 0.001. This led to a slight improvement in our results (Figure 1b)
-
 <div align="center">
   <div>
     <img src="results/result_manual_1.jpg" alt="Figure 1a" width="45%">
