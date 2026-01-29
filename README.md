@@ -36,9 +36,6 @@ Table 1: Performance Metrics of Manual label models at Different Epochs and Lear
 ### External label model
 External labels from Open Building data enabled us to cover a wider area compared to the manual label method. In this model, we tested with two different versions of the Building labels. One model was trained with a **fine-label** dataset with very granular labels that cover the two polygons with 10,000 images. We also trained another model using **condensed labels** by merging labels that were close together into larger bounding boxes to test how results would vary between the manually labeled model and the fine-labeled model.
 
-## Results
-### Manual label model
-The base model with manual labels contains 646 images. We trained the data using different benchmarks. First, with 25 epochs and learning rate of 0.01. As shown in Figure 1a model can detect the groups of buildings, although with less confidence. To improve the accuracy of the bounding boxes, we increased epochs to 30 and decreased the learning rate to 0.001. This led to a slight improvement in our results (Figure 1b).
 
 <div align="center">
   <div>
